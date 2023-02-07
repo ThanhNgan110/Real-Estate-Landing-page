@@ -113,3 +113,37 @@ body{
 .header-container-2-right{
     margin: 0% 12%;
 }
+
+.container-section {
+    width: 100%;
+    display: flex;
+    margin: 3% 0%;
+}
+.container-section .company-cooperate-introduce {
+    width: 56%;
+    margin: 0% 8%;
+}
+.container-section h4{
+    font-size: 16px;
+}
+.container-section p{
+    padding: 1% 0;
+    color: #7D8589;
+    font-size: 15px;
+}
+.company-start-rating{
+    width: 44%;
+}
+.checked {
+    color: orange;
+  }
+
+  .company-logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 8%;
+  }
