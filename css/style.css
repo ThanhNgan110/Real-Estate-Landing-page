@@ -147,3 +147,30 @@ body{
     align-items: center;
     margin: 0% 8%;
   }
+.section-company-works{
+    padding: 5% 0;
+}
+.container-company-works{
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-company-works .scroll-x{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    position: absolute;
+    width: 100%;
+    flex-wrap: nowrap;
+    height: 11%;
+    align-items: center;
+    background-color: #000339;
+    top: -18%;
+    width: 3%;
+    border-radius: 10px;
+}
